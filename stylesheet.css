@@ -1,0 +1,221 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+  background-color: #ecdcda;
+}
+li {
+  list-style: none;
+}
+.light{
+  background-color:#c8c1c7
+}
+.dark{
+  background-color:#9a8194
+}
+
+.flex-list {
+  display:flex;
+  flex-wrap:wrap;
+}
+.flex-list li {
+  flex:auto;
+  width:25%
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* Header */
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+header {
+  height: 50px;
+  width: 100%;
+  background-color: #592d50;
+  position:fixed;
+  top:0;
+  z-index:10;
+}
+
+.header-logo { 
+  font-size:25px;
+  color:white;
+  font-style:inherit;
+  float:left;
+  padding : 10px 20px;
+}
+
+.header-list li{
+  color:white;
+  list-style: none;
+  padding: 15px 15px;
+  float:left;
+}
+.header-list li:hover{
+  background-color: #9a8194;
+  transition:all 1s;
+}
+.header-right {
+    float:right;
+    transition:all 1s;
+}
+
+.header-right:hover {
+    background-color: #9a8194
+}
+
+.header-right a {
+    line-height: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    display:block;
+  }
+
+
+/* Top-wrapper */
+.top-wrapper {
+  color: white;
+  text-align: center;
+  padding: 180px 0 100px 0;
+  background-size: cover;
+  background-image: url(https://raw.githubusercontent.com/mestikaint/mestikaint.github.io/C13-DTS-Webpage-Team-Project/coding-924920_1920.jpg);
+  opacity: 0.8;
+}
+
+
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  margin-bottom: 3px;
+  font-weight:normal;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  opacity: 0.8;
+  border-radius: 4px;
+  display: inline-block;
+  text-align: center;
+  cursor:pointer;
+}
+
+.fa {
+  margin-right: 12px;
+}
+.btn:hover {
+  opacity: 1;
+}
+
+/* Team Profile */
+.lesson-wrapper {
+  padding-left: 5%;
+  padding-right: 5%;
+  height:fit-content;
+  text-align: center;
+  padding-bottom: 80px;
+}
+  
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+  
+.heading h2 {
+  font-weight: bold;
+  color: #44233e;
+}
+  
+.lesson {
+  float: left;
+  width: 25%;
+  color: #44233e;
+}
+  
+.lesson-icon img {
+  padding-top: 20px;
+  width: 80%;
+  border-radius: 50%;
+}
+
+.lesson-icon p {
+  margin-top: 15px;
+  width: 100%;
+  text-align: center;
+}
+  
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 80px;
+}
+
+/* Footer */
+.footer {
+  color: #44233e;
+  height: 110px;
+  padding: 40px; 
+}
+
+.footer-logo{
+  font-size: 40px;
+  float: left;
+  margin-top: 30px;
+}
+
+.footer-list{
+  float: right;
+  border-left:2px solid #44233e;
+}
+
+.footer-list li{
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
